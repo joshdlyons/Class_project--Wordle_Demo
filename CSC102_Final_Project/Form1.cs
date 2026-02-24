@@ -44,7 +44,7 @@ namespace CSC102_Final_Project
             word = Files.GetWord();
         }
 
-        private void InitializeLabels() //(All the random numbers in here are just specifying where to put the labels)
+        private void InitializeLabels()
         {   
             // Initializing Input Text Labels 
             for (int y = 0; y < inputLabelsArray.GetLength(0); y++)

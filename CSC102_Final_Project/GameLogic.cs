@@ -25,8 +25,6 @@ namespace CSC102_Final_Project
 
         public void EvaluateGuess(string guess, string word)
         {
-            // ( This is definitely the most complicated method so I added some basic comments already )
-
             // This method determines what letters match the word and therefore what labels to change colors
 
             // Variables to keep track of how many times a letter appears in a word so we don't color in duplicates

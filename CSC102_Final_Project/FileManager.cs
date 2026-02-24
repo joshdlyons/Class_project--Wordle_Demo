@@ -76,8 +76,7 @@ namespace CSC102_Final_Project
 
             string word = wordDict.ElementAt(wordNum).Key;
             
-            //( WE'LL ENABLE THIS LATER TO UPDATE THE WORD USE COUNTER )
-            //wordDict[word]++;
+            wordDict[word]++;
 
             return word;
         }
